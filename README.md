@@ -12,6 +12,13 @@ Can some subset of the array sum to exactly the target? The decision version of 
 
 **Complexity:** O(n · target) time, O(target) space — pseudo-polynomial, which is why the general problem is still NP-complete.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
